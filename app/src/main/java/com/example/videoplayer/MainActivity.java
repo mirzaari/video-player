@@ -23,7 +23,7 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
 
-                videoplayer.video_url1 ="https://www.youtube.com/embed/PG53NSAYuMg";
+                videoplayer.video_url ="https://www.youtube.com/embed/hdiIycneQPQ";
                 Intent myIntent = new Intent(MainActivity.this,videoplayer.class);
                 startActivity(myIntent);
 
@@ -34,7 +34,7 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
 
-                videoplayer.video_url2 ="https://www.youtube.com/embed/zgUiRrrVt3Q";
+                videoplayer.video_url ="https://www.youtube.com/embed/qzjutBcGkBc";
                 Intent myIntent = new Intent(MainActivity.this,videoplayer.class);
                 startActivity(myIntent);
 
@@ -45,7 +45,7 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
 
-                videoplayer.video_url1 ="https://www.youtube.com/embed/mR92ql0P0q4";
+                videoplayer.video_url ="https://www.youtube.com/embed/lBTW4oE0D10";
                 Intent myIntent = new Intent(MainActivity.this,videoplayer.class);
                 startActivity(myIntent);
 
